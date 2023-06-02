@@ -1,5 +1,5 @@
 pipeline {
-    agent slave1
+    agent none
     stages {
         stage('Example Build') {
             agent { docker 'docker.io/library/maven:3-alpine' } 
